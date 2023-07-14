@@ -40,6 +40,7 @@ body {
     align-items: center;
     padding: 50px 70px;
     color: #E5E7EB;
+    gap: 100px;
 }
 
 .hero {
@@ -67,6 +68,7 @@ button {
 
 .content .hero {
     justify-self: flex-start;
+    flex-basis: 700px;
 }
 
 .footer {
@@ -142,15 +144,26 @@ button {
 }
 
 .sign-up-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    padding: 150px 300px;
 }
 
 .sign-up-container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    border-radius: 10px;
+    gap: 150px;
 }
 
 .sign-up-container .container button {
-    border: 1px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+.sign-up-header {
+    font-size: 20px;
+    font-weight: bold;
 }
