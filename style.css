@@ -59,8 +59,10 @@ body {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    max-width: 70px;
+    max-width: 90px;
+    padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .content .hero {
@@ -79,6 +81,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 50px 0px 100px 0px;
 }
 
 .card-container {
@@ -136,4 +139,18 @@ button {
     font-size: 22px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container .container {
+    background-color: #3882F6;
+}
+
+.sign-up-container .container button {
+    border: 1px solid #F9FAF8;
 }
