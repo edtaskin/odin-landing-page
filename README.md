@@ -1,2 +1,2 @@
 # odin-landing-page
-Project #2 in The Odin Project curriculum
+A toy landing page of a Japanese learning website made for Project #2 in The Odin Project curriculum
